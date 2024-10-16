@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #73619a;
+}
+
+header {
+    background-color: #1e13b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+.collapsible {
+    cursor: pointer;
+    background-color: #8a4bc8;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.collapsible:hover {
+    background-color: #8391e0;
+}
+
+.content {
+    padding: 0 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a1f42;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
